@@ -1,0 +1,294 @@
+body {
+    height: 125vh;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    margin-top: 70px;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 0 8px 0 grey;
+}
+
+header * {
+    display: flex;
+    gap: 27px;
+    font-size: 14px;
+    margin-left: -5px;
+}
+
+.slide {
+    width: 1340px;
+    margin-left: 0px;
+    margin-right: -50px;
+    /* border: 1px solid black; */
+    height: 400px;
+}
+
+.courses {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 18px;
+    /* border: 1px solid black; */
+    margin-left: 0px;
+    padding-left: 14px;
+    margin-top: 12px;
+}
+
+/* .navheader {
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 3px whitesmoke;
+    padding: 5px;
+    padding-right: 0px;
+    padding-left: 15px;
+    width: 1330px;
+    height: 60px;
+    margin-left: 3px;
+    padding-bottom: 0px;
+} */
+
+.logodiv {
+    margin-top: -20px;
+}
+
+.categorydiv {
+
+}
+
+.searchformdiv {
+    margin-top: 5px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 25px;
+    width: 600px;
+    background-color: whitesmoke;
+}
+
+.searchform {
+    display: flex;
+}
+
+.searchnav {
+    border: none;
+    width: 350px;
+    background-color: whitesmoke;
+}
+
+.buttonnav {
+    border: 0;
+    background-color: whitesmoke;
+    outline: none;
+    padding: 3px;
+    padding-right: 15px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.cart {
+    height: 30px;
+    /* border: 1px solid black; */
+    height: 20px;
+    margin-top: 13px;
+}
+
+.login {
+    border: 1px solid black;
+    padding: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 4px;
+}
+
+.signup {
+    border: 1px solid black;
+    padding: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 4px;
+    color: white;
+    background-color: black;
+}
+
+.udemylogo {
+    width: 70px;
+    height: 90px;
+    margin-left: 20px;
+}
+
+.lang {
+    border: 1px solid black;
+    margin-top: 4px;
+    height: 32px;
+    padding: 5px;
+}
+.bcourses{
+    /* border: 1px solid black; */
+    margin-left: 0px;
+    padding: 15px;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.video{
+    /* border: 1px solid black; */
+    height: 30px;
+    margin-top: -60px;
+    padding: 15px;
+    padding-top: 15px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.outterbox{
+    border: 1px solid rgb(201, 195, 195);
+    margin-left: 13px;
+    width: 1280px;
+    padding-top: 8px;
+    padding-left: 30px;
+}
+.outterbox h4 {
+    font-size: 25px;
+}
+.outterbox p {
+    font-size: 14px;
+    margin-top: -25px;
+    padding-top: 2px;
+    /* border: 1px solid black; */
+    line-height: 1.6;
+}
+.explore {
+    border: 1px solid black;
+    padding: 15px;
+    width: 98px;
+}
+.courses li{
+    color: grey;
+}
+courses .python {
+    color: black;
+}
+.fivecourses{
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid black; */
+    margin-bottom: 25px;
+    margin-left: -10px;
+}
+.Usubscribe{
+    border: 1px solid rgb(201, 195, 195);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgb(247, 251, 252);
+    width: 1250px;
+    padding: 30px;
+    margin-left: 12px;
+    padding-top: 8px;
+}
+.personal {
+    border: none;
+    width: 205px;
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    margin: 14px;
+    margin-left: 0px;
+}
+.amount{
+    /* border: 1px solid black; */
+    margin-top: -5px;
+    font-size: 14px;
+    color: grey;
+}
+.link{
+    text-decoration: none;
+}
+/* .shot{
+    margin-bottom: 0px;
+} */
+.demand{
+    /* border: 1px solid black; */
+    margin-top: 19px;
+    padding: 12px;
+    background-color: rgb(247, 251, 252);
+    width: 1327px;
+    margin-left: -8px;
+}
+.students{
+    border: 1px solid black;
+    display: flex;
+    padding: 12px;
+    margin-left: 0px;
+}
+.pic1{
+    margin-top: -1px;
+}
+.list{
+    /* border: 1px solid black; */
+    margin-left: 13px;
+    font-size: 23px;
+    margin-top: 45px;
+}
+
+.feature {
+    display: flex;
+    gap: 170px;
+    margin: 0 auto;
+    margin-left: -15px;
+    width: 1245x;
+    font-size: 13px;
+    text-decoration: none;
+    /* border: 1px solid black; */
+}
+.feature li {
+    line-height: 2.5;
+    list-style: none;
+}
+
+.outfeature{
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    width: 1349px;
+    margin-left: -8px;
+    background-color: rgb(247, 251, 252);
+    margin-bottom: 200px;
+    height: 570px;
+}
+.wrapper{
+    /* border: 1px solid black; */
+    margin-bottom: 120px;
+}
+
+.f5 {
+    /* border: 1px solid black; */
+    font-size: 23px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 1250px;
+    padding-top: 80px;
+}
+
+.f6 {
+    border: 1px solid black;
+    padding: 15px;
+    width: 135px;
+    margin-left: 24px;
+    margin-bottom: 80px;
+}
