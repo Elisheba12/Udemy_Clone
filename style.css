@@ -390,3 +390,55 @@ courses .python {
     color: white;
     font-weight: 700;
 }
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+    width: 1351px;
+    margin-left: -10px;
+}
+footer .footcase{
+    /* border: 1px solid white; */
+    width: 1349px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footcase .list {
+    /* border: 1px solid white; */
+    display: flex;
+    font-size: 14px;
+    gap: 100px;
+    line-height: 2.0;
+    margin-top: 5px;
+}
+.logocase{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 30px;
+}
+.udemylogo3 {
+    width: 70px;
+    height: 90px;
+    margin-left: 20px;
+}
+.cc{
+    /* border: 1px solid white; */
+    margin-right: 35px;
+    font-size: smaller;
+}
+.eng{
+    border: 1px solid white;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 20px;
+    padding-bottom: -0px;
+    padding-top: 12px;
+    padding-left: 35px;
+    width: 100px;
+}
+.list li {
+    list-style-type: none;
+}
